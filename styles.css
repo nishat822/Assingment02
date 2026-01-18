@@ -202,3 +202,50 @@ text-align: center;
   grid-row: span 2;
   padding: 100px 15px;
 }
+.feature {
+  background-color: #1A0B2E;
+  padding: 80px 20px;
+}
+
+.feature h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.podcast {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.podcast-series {
+  background-color: #2a0f3f;
+  border-radius: 18px;
+  width: 100%;
+  max-width: 380px;
+  color: #ffffff;
+}
+.podcast-info{
+  padding: 15px;
+}
+
+.podcast-series iframe {
+  width: 380px;
+  height: 215px;
+  border-radius: 16px 16px 0 0;
+  margin-bottom: 16px;
+}
+
+
+.podcast-series img {
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.podcast-series span {
+  font-size: 13px;
+  color: #2ee98c;
+}
