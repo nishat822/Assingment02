@@ -202,7 +202,7 @@ text-align: center;
   grid-row: span 2;
   padding: 100px 15px;
 }
-.feature {
+.feature, .host{
   background-color: #1A0B2E;
   padding: 80px 20px;
 }
@@ -248,4 +248,35 @@ text-align: center;
 .podcast-series span {
   font-size: 13px;
   color: #2ee98c;
+}
+.host{
+  text-align: center;
+
+}
+.host-img{
+  margin: 20px 0px 20px 20px;
+}
+.about-host{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+   background-color: #311546;
+  border-radius: 18px;
+}
+.host-social{
+  display: flex;
+  gap: 20px;
+padding-top: 20px;
+  
+}
+.host-social img{
+  max-width: 150px;
+  height: 40px;
+  padding: 10px;
+   border: 1px solid #b994d5 ;
+   border-radius: 20px;
+
 }
