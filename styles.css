@@ -3,35 +3,50 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 }
 
 
 body{
-    max-width: 1200px;
+    
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 
 
 }
+.display-flex{
+    display: flex;
+    margin: 0 auto;
+}
 .primary-font{
     font-size:3.8rem ;
     font-weight:800 ;
+    color: white;
 }
 .secondary-font{
     font-size:3rem ;
     font-weight:700 ;
+    color: white;
 }
 .third-font{
     font-size:2rem ;
     font-weight:700 ;
+    color: white;
 }
 .fourth-font{
     font-size:1.5rem ;
     font-weight:700 ;
+    color: white;
+}
+.manu-description{
+     font-size:1rem ;
+    font-weight:500 ;
+    color: white;
 }
 .universal-description{
      font-size:1rem ;
-    font-weight:600 ;
+    font-weight:400 ;
+    color: #627382
 
 }
 .primary-btn {
@@ -45,13 +60,13 @@ body{
 
   background: linear-gradient(
     270deg,
-    #9907c6,
+    #03bbed,
     #ff15ef,
     #fff700
   );
 
   background-size: 600% 600%;
-  animation: gradientMove 6s ease infinite;
+  animation: gradientMove  6s ease infinite;
 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -73,5 +88,62 @@ body{
   }
 }
 
+nav{
+    padding: 10px 0px 10px ;
+    background-color: #1A0B2E;
+     max-width: 1600px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
 
+}
+.manu ul{
+     display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.manu li:hover{
+ color: rgb(0, 0, 0);
+    font-weight: 500;
+  border: 1.5px solid rgb(235, 49, 29);
+  border-radius: 6px;
+  border-bottom: 3px solid rgb(146, 13, 117);
+  padding: 8px;
 
+}
+
+.logo-lastpart{
+    background: linear-gradient(270deg, #9907c6, #ff15ef, #fff700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.brand{
+    background-image: url(./assets/hero-bg.png);
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* horizontal center */
+  justify-content: center;  /* vertical center */
+  text-align: center;
+}
+.brand-img{
+    background-image: url(./assets/hero-circle.png);background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
