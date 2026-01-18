@@ -150,7 +150,7 @@ nav{
 .About{
 background-color: #230E3D;
 }
-.about-info{
+.about-info , .seclection-info{
 max-width: 1200px;
 margin: 0 auto;
 text-align: center;
@@ -158,8 +158,47 @@ padding-top: 80px;
 padding-bottom: 120px;
 
 }
+
 .total{
   margin-top: 100px;
   margin-bottom: 50px;
   justify-content: space-between;
+}
+.seclection{
+
+ background-color: #230E3D;
+}
+.seclection-info{
+max-width: 1200px;
+margin: 0 auto;
+text-align: center;
+
+
+}
+.box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+
+}
+.box-card{
+  background-color: rgba(34, 7, 69, 0.923);
+  text-align: left;
+  border-radius: 40px;
+}
+.box-card image{
+  max-width: 50px;
+}
+.card1{
+  padding: 50px 25px;
+
+}
+
+#grid-cols{
+  grid-column: span 2;
+  padding: 50px 25px;
+}
+#grid-row{
+  grid-row: span 2;
+  padding: 100px 15px;
 }
