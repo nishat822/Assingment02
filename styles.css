@@ -116,6 +116,9 @@ nav{
     
 
 }
+.hamburger {
+  display: block;
+}
 .manu ul{
      display: flex;
     list-style: none;
@@ -422,8 +425,9 @@ padding-bottom: 16px;
 
   
 }
+}
 @media screen and (min-width:576px) and (max-width:992px) {
-  .hamburger{
+ .hamburger{
   display: none;
 }
 
