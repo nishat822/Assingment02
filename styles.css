@@ -66,7 +66,7 @@ body{
   );
 
   background-size: 600% 600%;
-  animation: gradientMove  6s ease infinite;
+  animation: gradientMove  4s ease infinite;
 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -104,15 +104,6 @@ nav{
     gap: 20px;
     
 }
-.manu li:hover{
- color: rgb(255, 255, 255);
-    font-weight: 500;
-  border: 1.5px solid rgb(235, 49, 29);
-  border-radius: 6px;
-  border-bottom: 3px solid rgb(146, 13, 117);
-  padding: 8px;
-
-}
 
 .logo-lastpart{
     background: linear-gradient(270deg, #9907c6, #ff15ef, #fff700);
@@ -140,7 +131,24 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
+position: relative;
+}
+.new{
+  position: absolute;
+  background-color: #2ee98c;
+  padding: 5px 15px;
+  border-radius: 20px;
+   z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px rgb(188, 188, 188);
+  right: 0px;
+  top:0px;
+  top:20px;
+  right: 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
 
+  
 }
 .btn{
     display: flex;
@@ -279,4 +287,30 @@ padding-top: 20px;
    border: 1px solid #b994d5 ;
    border-radius: 20px;
 
+}
+footer{
+  background-image: url(./assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer{
+  text-align: center;
+  padding: 70px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.social{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-icon{
+  display: flex;
+  gap: 10px;
+ 
+}
+.social-icon img{
+  max-width: 20px;
 }
