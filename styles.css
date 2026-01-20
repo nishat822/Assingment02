@@ -184,6 +184,10 @@ position: relative;
 .About{
 background-color: #230E3D;
 }
+.about-me {
+  max-width: 695px;
+  margin: 0 auto;
+}
 .about-info , .seclection-info{
 max-width: 1200px;
 margin: 0 auto;
